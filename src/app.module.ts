@@ -20,7 +20,7 @@ import { QuestionModule } from './question/question.module';
     TypeOrmModule.forRoot({
       type: 'mysql',
       host: process.env.HOST,
-      port: +process.env.PORT,
+      port: +process.env.DATABASEPORT,
       username: process.env.USERNAME,
       password: process.env.PASSWORD,
       database: process.env.DATABASE,
