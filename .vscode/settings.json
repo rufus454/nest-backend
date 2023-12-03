@@ -1,0 +1,26 @@
+{
+    "a-file-icon-vscode.activeIconPacks": [
+        "angular",
+        "ngrx",
+        "nest",
+        "react",
+        "redux",
+        "rails"
+    ],
+    "sqltools.connections": [
+        {
+            "askForPassword": true,
+            "database": "api",
+            "driver": "MySQL",
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "name": "Angular Api",
+            "port": 3306,
+            "previewLimit": 50,
+            "server": "localhost",
+            "username": "root"
+        }
+    ]
+}
